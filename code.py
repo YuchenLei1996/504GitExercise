@@ -1,5 +1,9 @@
+''' Count the number of nucleotide in a sequence'''
+
 def function1(a):
+	# create an empty dictionary
     b = dict()
+	# Count the nucleotide number in a and return to the number of nucleotide which is b
     for c in a:
         if c not in b:
             b[c] = 1
